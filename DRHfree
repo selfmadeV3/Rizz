@@ -1,5 +1,5 @@
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-function lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+function vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
 
 data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
 
@@ -7,54 +7,54 @@ data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) i
  
 
 
-local selfmade = loadstring(game:HttpGet(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('DPvIDrFGWAYEmBAXLdPXMNaKBdjRucrDFfoIOdEJrIoHhqvNtfkeINGaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NlbGZtYWRlVjMvU2x5di9tYWluL2FjYnlwYXNz')))()
+local selfmade = loadstring(game:HttpGet(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('VdZPRmGmhRfItSozeNpRJFrLBKyrdrSFrDpWZmFmlXrUNgZXjJnyIKmaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NlbGZtYWRlVjMvU2x5di9tYWluL2FjYnlwYXNz')))()
 
-local Fluent = loadstring(game:HttpGet(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('uJagjCYfWDjogfeAXKtseNLKxwTXzvHWrYWjhClZcAmysKDykfNnwhOaHR0cHM6Ly9naXRodWIuY29tL2Rhd2lkLXNjcmlwdHMvRmx1ZW50L3JlbGVhc2VzL2xhdGVzdC9kb3dubG9hZC9tYWluLmx1YQ==')))()
-local SaveManager = loadstring(game:HttpGet(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('GLReLPWhIPjqLrGjqdwRPJgAxIUFLmXtiJgNjrLdAFfcQBqPUZWHqJfaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rhd2lkLXNjcmlwdHMvRmx1ZW50L21hc3Rlci9BZGRvbnMvU2F2ZU1hbmFnZXIubHVh')))()
-local InterfaceManager = loadstring(game:HttpGet(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('rNqkTrZoTwXDdFsupftmYEqaTgSIKpCZBjefQgaezCNNhOiNLjUWhRaaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rhd2lkLXNjcmlwdHMvRmx1ZW50L21hc3Rlci9BZGRvbnMvSW50ZXJmYWNlTWFuYWdlci5sdWE=')))()
+local Fluent = loadstring(game:HttpGet(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('PnKgBdyIVIWCbZEuuKBdIsZKeeTxDkkrNaAqTrFqyoSoMpsfSuIIwsDaHR0cHM6Ly9naXRodWIuY29tL2Rhd2lkLXNjcmlwdHMvRmx1ZW50L3JlbGVhc2VzL2xhdGVzdC9kb3dubG9hZC9tYWluLmx1YQ==')))()
+local SaveManager = loadstring(game:HttpGet(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('XISNrxkBfBEIYaVxPNGaTQMjVZwhqUewAoIezhYxJHEJsuvbtnRQQiXaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rhd2lkLXNjcmlwdHMvRmx1ZW50L21hc3Rlci9BZGRvbnMvU2F2ZU1hbmFnZXIubHVh')))()
+local InterfaceManager = loadstring(game:HttpGet(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('PfqsYlycnwyFLfagRIZfPIiclLFXgTXKuYNxTxLrGPqCDQhOmYTWxFuaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rhd2lkLXNjcmlwdHMvRmx1ZW50L21hc3Rlci9BZGRvbnMvSW50ZXJmYWNlTWFuYWdlci5sdWE=')))()
 
 local Window = Fluent:CreateWindow({
-    Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('umHajKGKZXaxCNOaMUyRoxayReIhPlfBiNfdDrnMIJMpcmMEuxliVocRGVyYW5nZWQgSHViIEZyZWU=') .. Fluent.Version,
-    SubTitle = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('KPNGVElUFAwDjOJpsXKAIqTRIxcIMQsrUfsQeEYnVVnegfNypbcnYSNYnkgRGVyYW5nZWQgSHVi'),
+    Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('NDqRYdoRSOONojJhgsZnAsCATyVLBZoYfnOJSgSwCErbpFOgJIUXFvgRGVyYW5nZWQgSHViIEZyZWU=') .. Fluent.Version,
+    SubTitle = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('arwxyfFyBRPlcGBczBjusLGoYPGWFuHSNnktPRociQyHsAdEXMfQDjAYnkgRGVyYW5nZWQgSHVi'),
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 430),
     Acrylic = true,
-    Theme = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('JacwYMQmMSINFcEhCEDQhoDbrlebIAHwslIxMqEuEBTEbwriJofydanRGFya2Vy'),
+    Theme = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('CAGYyHDELxhTfqPJkPbBRnThjINMgslLMjfJIWCfPHfPMGbMaLluZLzRGFya2Vy'),
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 
 local Tabs = {
-    Magnets = Window:AddTab({ Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('zYTKbzfjoTuingEJEleDXGxEiJYsVIYeZyoFpvDKBbHbZVgxvpnHMGKTWFnbmV0cw=='), Icon = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('OJEFuTvZeZsWZMdTvRqWVjfxhYuHOZsPMFToUbWwFCouKiscElMqepS') }),
-    Players = Window:AddTab({ Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('hVKVzQOKmjZuPxRGIIqukKziAqpJpnwCUvBWQMvPPRkiwjVagzDDNjbUGxheWVycw=='), Icon = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('RSqtQWbRclxxIwGnBTwrglPZUJlmjwvVTXqeEGMmbNVoZVIYVytImCG') })
+    Magnets = Window:AddTab({ Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('AxsNUXZRyVGqzcJzlqRsGkyKueFrnuemqZpWXOWTPAETKMMoRzKmWocTWFnbmV0cw=='), Icon = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('kFGnDshaNFYPxMlpBdsEBwuWcWUokFgcBcLoBGXnuVonqQyaXapFQEW') }),
+    Players = Window:AddTab({ Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('FFLTUqzyaQEWSRqCRjIokqUZcBkxDetKiohJyKuaCJGvsiQSaRRTUrDUGxheWVycw=='), Icon = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('iqesOnnsEDQLmmuKMWPkrhJcVtxZNOHbjBLQLqOIBwgfzmvoyMPZFBl') })
 }
 
 Fluent:Notify({
-    Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('ZNtDBCcbnnvEKNPUyfyiKHdGTSaxDHrBODwEXqWMpFtxgThIUfFwwxYRGVyYW5nZWQgTG9hZGluZw=='),
-    Content = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('MmafjSzZlutCqRriwXZtOwbMdTNozBDXcEgdBCdTzKTVjhynGRSMEeiVGhhbmtzIGZvciBZb3VyIFBhdGllbmNl'),
-    SubContent = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('tXFFUeFbpbUInDMSDCEcrYbfRvmcfycFGfdwlhDbnsrijqbJHRWBlvjU3ViQ29udGVudA=='),
+    Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('GqgqFbLHpiqUJJsOdxqCgMnAGLCiMaxzkNmMNlAMgdmRfkTKDqiVJuURGVyYW5nZWQgTG9hZGluZw=='),
+    Content = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('SGIkUkHJYhQblIyZvlaOLTJiveHWKfmerCxUCuwlApOjxzxwaNzWpFKVGhhbmtzIGZvciBZb3VyIFBhdGllbmNl'),
+    SubContent = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('UcUZIzHUYpDtRdJqAcTUdaLBClSqZMjgVyyHIPEzBtdXhOFBHqxexJKU3ViQ29udGVudA=='),
     Duration = 3
 })
 
 local MagPower = 90
 local MagsEnabled = false
 
-local ToggleMagnets = Tabs.Magnets:AddToggle(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('ppTeAQtKFkbwDRPWayxcGQSrzhyJruSNgaeKuhLBIdBOIbHCqKgtUOnTWFnbmV0cw=='), {
-    Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('HqrWXOyccyDBEDzryPaqdCEtydgUhLRmwLaHxGtvOEiaalLjBBOEPcWTWFnbmV0cw=='),
+local ToggleMagnets = Tabs.Magnets:AddToggle(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('EibXrCFeQRrZiODzinTgBzLFGYoYCeLwkeAyCVXSjzfDQNtBLJzSntvTWFnbmV0cw=='), {
+    Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('NgPFnUdoXeSmhKRFQYZCjpLVOgsjahlFNBxhWzhHfGPEAMebRJCOjJsTWFnbmV0cw=='),
     Default = false
 })
 
 ToggleMagnets:OnChanged(function(Value)
     MagsEnabled = Value
     if MagsEnabled then
-        local RunService = game:GetService(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('ystztgeagycUyHvbCvcwpvmszfdspaKDYlYSJHcbkjJSVTdHXiUjKAjUnVuU2VydmljZQ=='))
-        local Players = game:GetService(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('etIuFJqNKupAyMWosXCHaCklOEqXxyOCzKBuzCGCDENAnczQSxkkVxvUGxheWVycw=='))
+        local RunService = game:GetService(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('sGXcatSAexMEqnUbZrxTLpkjJRUvvEHByqgSMLGmzqKyuJTcHuitBPkUnVuU2VydmljZQ=='))
+        local Players = game:GetService(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('LXtmIcFHHWfCCtvyzGFYNOSBFucjYEiGJKGyrtDDPpVBenoANjuXgMFUGxheWVycw=='))
         local LocalPlayer = Players.LocalPlayer
         local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
-        local CatchRight = Character:WaitForChild(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('RgQqWYaWnXhsqNSySdhxEMyIrOTeqKvOfziQUGlNdlPaasSbfRgKOdBQ2F0Y2hSaWdodA=='))
+        local CatchRight = Character:WaitForChild(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('hyQejhkvuexKvrsHQBVSXaMiDNicAMVQVWlezLdHSnLDiyirrWKohYwQ2F0Y2hSaWdodA=='))
 
         local function handleMagnet()
             for _, v in pairs(workspace:GetChildren()) do
-                if v:IsA(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('msqPFgkprpgFHQkbUvfxfbZlcvrjoZVqhRrAJDECKZwjNwVNRxLxHLoQmFzZVBhcnQ=')) and v.Name == lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('OftoEmfbCOazOjsuzqjPozNeXbBicUxmEUiQxQDKVLosMPLcUkqkhloRm9vdGJhbGw=') then
+                if v:IsA(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('pQnbiwoKkwudtMxTyNmuCryfpkMJOZTDnOcdEmKktHGhNNlCxhyqXVVQmFzZVBhcnQ=')) and v.Name == vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('YyUjnMHWMHuzvumZPKDObvkzShNaIDpymzBFkdnazHdmJubDwcNWGqwRm9vdGJhbGw=') then
                     if (CatchRight.Position - v.Position).Magnitude <= MagPower then
                         firetouchinterest(CatchRight, v, 0)
                         firetouchinterest(CatchRight, v, 1)
@@ -74,42 +74,42 @@ ToggleMagnets:OnChanged(function(Value)
     end
 end)
 
-local SliderMagnetRange = Tabs.Magnets:AddSlider(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('YEuxebQmJuwdmzavBtiBcuCdvHQrxVCtVWhocrVyZTvIujpjPBVMvQkTWFnbmV0UmFuZ2U='), {
-    Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('pbYLuexPjxGfKJsIhoANUDcSBMUuUYtAhuvCghdUJzPcTILaLTpRunyTWFnbmV0cyBSYW5nZQ=='),
-    Description = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('RYFgnZrHuiuAvcxSNsceCaoxnQpwnBkzygxtjyuNsJWyAvfcJulRUNFQWRqdXN0cyB0aGUgcmFuZ2Ugb2YgdGhlIG1hZ25ldHM='),
+local SliderMagnetRange = Tabs.Magnets:AddSlider(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('tWMZkiFimbhVDHSluTHsSuOVtzqHsmIiFaVPSWLoiECwiHUaOWZsfdpTWFnbmV0UmFuZ2U='), {
+    Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('UOXUrwDKjwZzaazybOFmiyeFhTdGmKgVlATEPDZCNExPisHzRcoKZneTWFnbmV0cyBSYW5nZQ=='),
+    Description = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('fBIiYKQjJuvXYLkrQDfeggJWwpDRIIoCsvYNjQHtTiygtwAfXiWtsncQWRqdXN0cyB0aGUgcmFuZ2Ugb2YgdGhlIG1hZ25ldHM='),
     Default = 90,
     Min = 0,
     Max = 90,
     Rounding = 1,
-    Callback = function(Value)
-        MagPower = Value
-        print(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('vKqjQPVKJiaICzMWDEdbwyWIpqHDsjMrsondFyJGVsfYlLTTwHuDWkJTWFnUG93ZXIgc2V0IHRvOg=='), MagPower)
+    Callback = function(magValue)
+        MagPower = magValue
+        print(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('blRDBnTBxWXoIhHqkXYgHAFghgFtvMptomlDViIkAcgCVmcXQmdtpCCTWFnUG93ZXIgc2V0IHRvOg=='), MagPower)
     end
 })
 
-local ToggleJumpPower = Tabs.Players:AddToggle(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('ZnFrDIMWYkoBYyiEzrsqldqtWZzVgOxNxkBWeOxguWbQWoYEXyLOMHESnVtcFBvd2Vy'), {
-    Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('YCZKLWlKpcUIUzQwrtXqrdjoJWIehchoKerZtjtbOJqEfnEhMnasgWDSnVtcFBvd2Vy'),
+local ToggleJumpPower = Tabs.Players:AddToggle(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('zYTPqXPwtPlckSKUsgNNdoqsiyOXesFZbswAPCYLlDWRSXrHhGmbuMPSnVtcFBvd2Vy'), {
+    Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('ybvgWqFkrNMVnPxtXZhwWuPIIUTTHmQrRmDaHSqNvTpjbXoBdQvOilOSnVtcFBvd2Vy'),
     Default = false
 })
 
 local JumpPowerValue = 50
 
 ToggleJumpPower:OnChanged(function(Value)
-    local Humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('VRoRhaddWDicNaYUPptBfwolpcgMzOpabNGfCvimhOypddANjElcRACSHVtYW5vaWQ='))
+    local Humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('RtLnMHDpMARhfARFpSVYHzQnQXESoTBQjJjmAyTfCFgmUlLuUnmKRiASHVtYW5vaWQ='))
     if Humanoid then
         JumpPowerValue = Value and 50 or Humanoid.JumpPower
     end
 end)
 
-local SliderJumpPower = Tabs.Players:AddSlider(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('LlOXesDpAqnHscDtvzvrmyPMwuzeHYMtwsZTtxCwXzaRUJTieYFXjfjSnVtcFBvd2Vy'), {
-    Title = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('GOsAFJsXypFXrvnhVHYzVFYiRGficiRWFESUTqcDkaTRURnEUbMNPOhSnVtcFBvd2VyIEhlaWdodA=='),
-    Description = lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('AFpDUXcObJWVLhRgHEeRhMXrpkILwvrwzhxFlYCUZRZSHxbyyCRwUHbQ2hhbmdlcyBob3cgaGlnaCB5b3UganVtcA=='),
+local SliderJumpPower = Tabs.Players:AddSlider(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('wPvKARDiCkhnHbQYzQZaElxkjEmZNDnWogCSgdMkZFYxoUakFVoIFKCSnVtcFBvd2Vy'), {
+    Title = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('fXlLzBorgLBTVpzQnVUByNhkZiYlWwMZjDcJgkfPitNqsHpncOALvynSnVtcFBvd2VyIEhlaWdodA=='),
+    Description = vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('vqxQHhsbXBZZqILtJNNDvtmUxWOkrTWduixjxfmSDEFAwRlLVmbthgPQ2hhbmdlcyBob3cgaGlnaCB5b3UganVtcA=='),
     Default = 50,
     Min = 50,
     Max = 60,
     Rounding = 1,
-    Callback = function(Value)
-        JumpPowerValue = Value
+    Callback = function(jpValue)
+        JumpPowerValue = jpValue
     end
 })
 
@@ -117,7 +117,7 @@ local SliderJumpPower = Tabs.Players:AddSlider(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJG
 local function enforceJumpPower()
     while true do
         if ToggleJumpPower.Value then
-            local Humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass(lnEYimCVQmcTeLFjXIoAsygvMEXlCyRJGKJpZoOASJOZKRCCzYOUFD('krDKIVvXAJLplXDzuNPBjUchzhSZvsbRMlUWkjEwVygRDwuRlihRsVdSHVtYW5vaWQ='))
+            local Humanoid = game.Players.LocalPlayer.Character:FindFirstChildOfClass(vUyLghhaoJxFQSGDrakjgldrBObZkkMjuTQxoXMKwveOddeJIraDDwfEvCzWBqKiZipQTHqkavZYEfiUZtNOjONEjqchUUinaQv('qsVLgOWIMqXIJFZSJtPalekWcSwjIEdyfmlkIStdCDDCAKVGkRkzZZQSHVtYW5vaWQ='))
             if Humanoid then
                 Humanoid.JumpPower = JumpPowerValue
             end
